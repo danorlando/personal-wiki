@@ -1,0 +1,345 @@
+{
+  "main": {
+    "id": "9607ec273f962ad8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d919ae9449e6f46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50155af1ae5160ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Experience Profile.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Experience Profile"
+            }
+          },
+          {
+            "id": "9410d0053d3211d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Aledade Interview strategy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aledade Interview strategy"
+            }
+          },
+          {
+            "id": "1903939c0ec04661",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/STAR Format Answers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STAR Format Answers"
+            }
+          },
+          {
+            "id": "102aeb575fc68cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "c2b29f016b490398",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Medscape AI Answer Engine talking points.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Medscape AI Answer Engine talking points"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "c72df529c1484463",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29c62a37d0745d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Interview Bullets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interview Bullets"
+            }
+          },
+          {
+            "id": "c450afe554405c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "research_papers/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "ee61ddee9f776438",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/AI Topic Cards Agent API talking points.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Topic Cards Agent API talking points"
+            }
+          },
+          {
+            "id": "982b6842fb0772d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/STAR Format Answers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STAR Format Answers"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cda67733019193db",
+    "type": "split",
+    "children": [
+      {
+        "id": "c320cc7e0d44dcb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1f105b440d60305",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "693926dce6389943",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cec05467a9b216d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d1e35c6765fea449",
+    "type": "split",
+    "children": [
+      {
+        "id": "87f651a8c4c9286a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f3b0c1417c11b78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Repos/agent_enhancement/OpenSpace.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for OpenSpace"
+            }
+          },
+          {
+            "id": "80ec6d6d7c63585f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Repos/agent_enhancement/OpenSpace.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from OpenSpace"
+            }
+          },
+          {
+            "id": "1e075b7cbe5d1ac0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "258285f298f4f700",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "30848a3802f7f9d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Repos/agent_enhancement/OpenSpace.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of OpenSpace"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c450afe554405c4c",
+  "lastOpenFiles": [
+    "Repos/agent_enhancement/agentic-stack.md",
+    "research_papers/Untitled.md",
+    "research_papers/Prompt Repetition Improves Non-Reasoning LLMs.md",
+    "my_article_ideas/DDD.md",
+    "research_papers",
+    "Personal/Medscape AI Answer Engine talking points.md",
+    "my_article_ideas",
+    "Untitled 1.md",
+    "Personal/STAR Format Answers.md",
+    "Personal/Interview Bullets.md",
+    "Personal/Experience Profile.md",
+    "Articles/Lessons from Building Claude Code Seeing like an Agent.md",
+    "Personal/Aledade Interview strategy.md",
+    "Personal/AI Topic Cards Agent API talking points.md",
+    "Personal/Answer Engine API talking points.md",
+    "Untitled.md",
+    "Repos/agent_enhancement/OpenSpace.md",
+    "Repos/agent_enhancement/googleworkspace-cli.md",
+    "Repos/agent_enhancement/CLI-Anything.md",
+    "Repos/autoresearch.md",
+    "Personal",
+    "Articles/Lessons from Building Claude Code How We Use Skills.md",
+    "Articles/Advent of Claude 31 Days of Claude Code.md",
+    "Repos/agent_enhancement/graphify coding assistant knowledge graph skill.md",
+    "Repos/prompting/awesome-design-md.md",
+    "Repos/agent_enhancement/hindsight - Agent Memory That  Learns.md",
+    "Repos/agent_enhancement/claude-skills 220+ Claude Code skills & agent plugins.md",
+    "Repos/agent_enhancement/addyosmani - agent-skills Production-grade engineering skills.md",
+    "Repos/agent_systems/claw-code.md",
+    "Readme/agent_systems",
+    "Readme",
+    "Repos/research_tools",
+    "Repos/prompting",
+    "Repos/agent_enhancement",
+    "Repos/agent_systems",
+    "Repos/claude"
+  ]
+}
