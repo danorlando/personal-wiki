@@ -1,0 +1,98 @@
+---
+title: "Two agents, one prompt – Daniel van Strien"
+source: "https://danielvanstrien.xyz/posts/2026/agent-race/"
+author:
+  - "[[Daniel van Strien]]"
+published:
+created: 2026-05-01
+description: "I gave two coding agents the same one-line prompt and watched what each decided to do. Both shipped working classifiers via hf jobs. The headline metrics were within 1.5pp — the interesting differences were everywhere else."
+tags:
+  - "article"
+  - "blog"
+---
+Agents are getting more and more capable of training models. This means domain experts can have agents fine tune models for them without needing to write code themselves. But how do different agents approach the same task? Do they make the same choices? How good are the models they produce?
+
+I gave two coding agents the same one-line task and watched what each one decided to do.
+
+The task: fine-tune a model on [`biglam/on_the_books`](https://huggingface.co/datasets/biglam/on_the_books) — UNC Chapel Hill Libraries’ labelled training set from *On the Books: Jim Crow and Algorithms of Resistance* — and push the trained classifier to the Hub. Train via [`hf jobs`](https://huggingface.co/docs/huggingface_hub/guides/cli#hf-jobs).
+
+TipPreview the dataset
+
+<iframe src="https://huggingface.co/datasets/biglam/on_the_books/embed/viewer/default/train" frameborder="0" width="100%" height="560px"></iframe>
+
+One agent was [Pi](https://pi.dev/) running on [Kimi K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) (open weights, via API). The other was Claude Code on Opus 4.7. Same prompt, parallel runs, ~13 minutes each.
+
+## The prompt
+
+```
+Fine-tune a model on biglam/on_the_books to identify Jim Crow laws.
+Train via hf jobs and push the trained model to my namespace.
+
+Run \`hf --help\` to understand the Hub CLI and \`hf jobs uv run --help\`
+to understand how to submit uv scripts. You can use \`uv run --with\`
+to run small scripts for exploring the dataset.
+
+Start by exploring the dataset structure, then proceed to choose
+and fine-tune an appropriate model.
+
+Push the final model to davanstrien/<repo-name>.
+```
+
+## The race
+
+<video controls="" width="100%"><source src="https://huggingface.co/buckets/davanstrien/blog-assets/resolve/agent-race.mp4?download=true" type="video/mp4"><p>Your browser doesn’t support embedded video. <a href="https://huggingface.co/buckets/davanstrien/blog-assets/resolve/agent-race.mp4?download=true">Download the recording</a>.</p><p>Note</p><p>The two terminals are running side-by-side: Claude Code on the left, Pi+Kimi on the right. Both call <code>hf</code> directly, both submit <code>hf jobs uv run</code>, both push to the Hub when training finishes.</p></video>
+
+## What each one shipped
+
+Both produced working binary classifiers. The headline numbers are close:
+
+| Base model | **ModernBERT-base** (8K context) | RoBERTa-base |
+| --- | --- | --- |
+| Wall-clock | ~13 min | ~13 min |
+| F1 (jim\_crow) | 0.962 | 0.947 |
+| Accuracy | 0.978 | (not reported) |
+| Hardware | L4 via `hf jobs` | L4 via `hf jobs` |
+| Class imbalance handling | inverse-frequency weighted loss | not addressed |
+| Model card | full (use, limits, ethics, hparams, citation) | auto-generated `Trainer` placeholder |
+| Domain tags | 7 | 0 |
+
+- Claude’s model: [`davanstrien/jim-crow-laws-claude-code`](https://huggingface.co/davanstrien/jim-crow-laws-claude-code)
+- Pi+Kimi’s model: [`davanstrien/jim-crow-laws-pi-kimi`](https://huggingface.co/davanstrien/jim-crow-laws-pi-kimi)
+
+## The interesting bit
+
+The F1 gap is real but small. What’s more striking is what each agent *decided* to do beyond producing weights:
+
+- **Base model choice.** Claude Code picked ModernBERT — the obvious 2025 choice for legal text given its 8K context window. Pi+Kimi went with RoBERTa-base. Both produce viable classifiers; only one of those is a current decision.
+- **The label-leak gotcha.** The dataset’s `source` field is 100% positive for `paschal` and 92% positive for `murray` — using it as a feature would leak the label. Claude noticed this in the dataset card and explicitly excluded `source`. Pi+Kimi didn’t mention it.
+- **Class imbalance.** ~29% of the data is positive. Claude added inverse-frequency class weights to the loss; Pi+Kimi trained with default cross-entropy.
+- **The model card.** Claude wrote a full card with intended use, limitations, OCR-noise caveats, ethical framing carried over from the dataset, full hyperparameters, per-epoch metrics, and a citation back to the *On the Books* project. Pi+Kimi shipped the auto-generated `Trainer` template with three “More information needed” placeholders.
+- **Discoverability.** Claude added seven domain tags (`legal`, `glam`, `jim-crow`, `north-carolina`, `history`, etc.). Pi+Kimi added zero. One of these models is findable by an archivist; the other isn’t.
+
+## What this means
+
+Agents are able to produce working models with minimal prompting and no code. Using [Hugging Face Jobs](https://huggingface.co/docs/huggingface_hub/guides/cli#hf-jobs) means you don’t need local GPU access or ML expertise to get a model trained and pushed to the Hub. One of the reasons in the past people didn’t bother training task and domain-specific models was the friction of setting up training pipelines; agents + hf jobs are changing that.
+
+IMO the biggest gap is still datasets (sorry broken record). In my experience agents still struggle when working with domain specific data “from scratch” but likely with some hand holding from a domain expert the process from unlablled data -> labelled dataset -> trained model can be done with agents by a domain expert who is not an ML engineer.
+
+## Browse the agent traces
+
+Both agents’ full session traces are on the Hub using the new [agent trace viewer](https://huggingface.co/changelog/agent-trace-viewer). You can step through each turn, tool call, and model response:
+
+<iframe src="https://huggingface.co/datasets/davanstrien/agent-race-traces/embed/viewer/default/train" frameborder="0" width="100%" height="560px"></iframe>
+
+Direct links to each session file:
+
+- Claude Code: [`claude-code.jsonl`](https://huggingface.co/datasets/davanstrien/agent-race-traces/blob/main/claude-code.jsonl)
+- Pi + Kimi: [`pi-kimi.jsonl`](https://huggingface.co/datasets/davanstrien/agent-race-traces/blob/main/pi-kimi.jsonl)
+
+## Try it yourself
+
+- **[HF Jobs](https://huggingface.co/docs/huggingface_hub/guides/cli#hf-jobs)** — launch GPU training from the CLI without managing infrastructure
+- **[Agent trace viewer](https://huggingface.co/changelog/agent-trace-viewer)** — host and browse coding-agent sessions on the Hub
+
+## Caveats
+
+N=1, single dataset, single prompt, single run per agent. Run-to-run variance from random seeds and agent non-determinism would shift the numbers within a few points either way. Don’t read this as a benchmark — read it as a snapshot of what each agent *chose to do* given the same minimal brief. A fairer comparison would repeat both runs across multiple datasets and seeds, and would also try frontier-open (e.g. Claude Code on Kimi K2.6) and open-frontier (Pi on Opus 4.7) crosses to disentangle agent-vs-model effects.
+
+Credit to the *[On the Books](https://onthebooks.lib.unc.edu/)* project at UNC Chapel Hill Libraries for the underlying data and the *algorithms of resistance* framing.

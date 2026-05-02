@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research_papers/Untitled.md",
+                "file": "Articles/Two agents, one prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Two agents, one prompt"
             }
           },
           {
@@ -291,9 +291,17 @@
   },
   "active": "c450afe554405c4c",
   "lastOpenFiles": [
+    "research_papers/Untitled.md",
+    "research_papers/bayes_consistent_decisions.pdf",
+    "Repos/autoresearch.md",
+    "Articles/Two agents, one prompt.md",
+    "research_papers/diversity_collapse.pdf",
+    "research_papers/Skill-RAG.md",
+    "research_papers/Stateless Decision Memory for Enterprise AI Agents.md",
+    "research_papers/autogenesis.pdf",
+    "research_papers/AI_Agent_Traps.pdf",
     "Repos/agent_systems/hermes-agent.md",
     "Repos/agent_enhancement/agentic-stack.md",
-    "research_papers/Untitled.md",
     "research_papers/Prompt Repetition Improves Non-Reasoning LLMs.md",
     "my_article_ideas/DDD.md",
     "research_papers",
@@ -311,21 +319,12 @@
     "Repos/agent_enhancement/OpenSpace.md",
     "Repos/agent_enhancement/googleworkspace-cli.md",
     "Repos/agent_enhancement/CLI-Anything.md",
-    "Repos/autoresearch.md",
     "Personal",
     "Articles/Lessons from Building Claude Code How We Use Skills.md",
     "Articles/Advent of Claude 31 Days of Claude Code.md",
     "Repos/agent_enhancement/graphify coding assistant knowledge graph skill.md",
-    "Repos/prompting/awesome-design-md.md",
-    "Repos/agent_enhancement/hindsight - Agent Memory That  Learns.md",
-    "Repos/agent_enhancement/claude-skills 220+ Claude Code skills & agent plugins.md",
-    "Repos/agent_enhancement/addyosmani - agent-skills Production-grade engineering skills.md",
     "Readme/agent_systems",
     "Readme",
-    "Repos/research_tools",
-    "Repos/prompting",
-    "Repos/agent_enhancement",
-    "Repos/agent_systems",
-    "Repos/claude"
+    "Repos/research_tools"
   ]
 }
