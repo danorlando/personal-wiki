@@ -1,10 +1,13 @@
 ---
+title: "Claude Code"
+created: 2026-04-26
+updated: 2026-05-02
+type: entity
 tags:
   - entity
   - tool
   - anthropic
   - developer-tools
-updated: 2026-04-26
 ---
 
 # Claude Code
@@ -65,6 +68,18 @@ Claude Code's action space is built around Tool Calling in the Claude API. Key d
 | Inline docs in system prompt | [[Claude Code]] Guide subagent | Avoids context rot; [[Progressive Disclosure]] |
 | ExitPlanTool question param | `AskUserQuestion` tool | Dedicated tool works better; Claude likes calling it |
 
+## Agent Comparison Performance
+
+In the [[sources/two-agents-one-prompt|Two agents, one prompt]] comparison, Claude Code (Opus 4.7) outperformed Pi+Kimi K2.6 on judgment dimensions despite similar F1 scores (0.962 vs 0.947). Key differentiators:
+
+- Chose ModernBERT-base (8K context) over legacy RoBERTa-base — appropriate for legal text
+- Detected and excluded the `source` field to prevent data leakage (the field was 100% correlated with the positive class for one source)
+- Applied inverse-frequency class weights for the 29% positive-class imbalance
+- Produced a full model card with ethical framing, limitations, hyperparameters, and citation
+- Added 7 discoverability tags for domain findability
+
+This supports the broader insight in [[Agent-Benchmarking]]: when agents can all complete tasks, the differentiator is judgment, not metrics.
+
 ## Inbound sources
 - [[sources/advent-of-claude-31-days]]
 - [[sources/claude-code-how-we-use-skills]]
@@ -82,3 +97,4 @@ Claude Code's action space is built around Tool Calling in the Claude API. Key d
 - [[sources/opencode]]
 - [[sources/awesome-design-md]]
 - [[sources/last30days-skill]]
+- [[sources/two-agents-one-prompt]]

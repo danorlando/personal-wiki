@@ -1,11 +1,14 @@
 ---
+title: "everything-claude-code (ECC)"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - agent_harness
   - performance_optimization
   - OSS
   - hackathon_winner
-updated: 2026-04-26
 source: https://github.com/affaan-m/everything-claude-code
 ---
 

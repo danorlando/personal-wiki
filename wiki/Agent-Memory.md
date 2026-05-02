@@ -1,10 +1,13 @@
 ---
+title: "Agent Memory"
+created: 2026-04-26
+updated: 2026-05-02
+type: concept
 tags:
   - concept
   - agents
   - memory
   - architecture
-updated: 2026-04-26
 ---
 
 # Agent Memory
@@ -59,15 +62,31 @@ Memory in this framing is "how to reliably do this class of task in this environ
 
 ## What You Store Is the Design Decision
 
-The three approaches differ most sharply in their theory of what's worth encoding:
+The four approaches differ most sharply in their theory of what's worth encoding:
 
-| System | Stored unit | Theory |
+|| System | Stored unit | Theory |
 |--------|-------------|--------|
 | Hindsight | Mental Models (abstractions over experiences) | Agents need generalizable patterns, not raw history |
 | OpenViking | Tiered abstractions in a navigable hierarchy | Agents need structured, deterministic context |
 | OpenSpace | Executable skills (patterns as runnable code) | Agents need reliable execution, not just knowledge |
+| DPM | Immutable event log + projection | Regulated agents need replay/audit/isolation/scale by construction |
 
-All three reject naive "store everything, retrieve by similarity" approaches. They're all bets that the stored representation — not just the retrieval mechanism — is the leverage point.
+All four reject naive "store everything, retrieve by similarity" approaches. They're all bets that the stored representation — not just the retrieval mechanism — is the leverage point.
+
+### 4. Deterministic Projection (DPM)
+
+DPM takes the most radical stateless position: **memory does not exist as a runtime object at all** until decision time. The trajectory is stored as an immutable append-only event log, and a single task-conditioned projection at temperature zero produces the memory view. This is [[Event-Sourcing]] applied to agent memory.
+
+The tradeoff is explicit: DPM gives up the ability for an agent to deliberate by editing its own memory mid-trajectory. In exchange, it satisfies four enterprise properties by construction — deterministic replay, auditable rationale, multi-tenant isolation, and statelessness for horizontal scale — that stateful architectures can only achieve through costly retrofits.
+
+Empirically, DPM matches summarization-based memory at generous budgets and strictly outperforms it at tight budgets (20× compression), because incremental summarization's per-step losses compound across the trajectory while DPM's single projection sees the full log. See [[Deterministic-Projection-Memory]] for the full architecture and results.
+
+|| System | Stored unit | Theory |
+|--------|-------------|--------|
+| Hindsight | Mental Models (abstractions over experiences) | Agents need generalizable patterns, not raw history |
+| OpenViking | Tiered abstractions in a navigable hierarchy | Agents need structured, deterministic context |
+| OpenSpace | Executable skills (patterns as runnable code) | Agents need reliable execution, not just knowledge |
+| DPM | Immutable event log + projection | Regulated agents need replay/audit/isolation/scale by construction |
 
 ## Session Persistence (Personal Stack Pattern)
 
@@ -82,3 +101,4 @@ PAI's three-tier hot/warm/cold memory feeds a continuous feedback loop — ratin
 - [[sources/openspace]]
 - [[sources/claude-mem]]
 - [[sources/personal-ai-infrastructure]]
+- [[sources/stateless-decision-memory]]

@@ -1,10 +1,13 @@
 ---
+title: "Skills Ecosystem"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - skills
   - ecosystem
   - extensibility
-updated: 2026-04-26
 ---
 
 # Skills Ecosystem

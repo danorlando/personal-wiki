@@ -1,10 +1,13 @@
 ---
+title: "TurboQuant"
+created: 2026-04-26
+updated: 2026-04-26
+type: entity
 tags:
   - entity
   - google
   - llm-efficiency
   - algorithm
-updated: 2026-04-26
 ---
 
 # TurboQuant

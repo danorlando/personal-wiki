@@ -1,0 +1,13 @@
+---
+title: "AI Agent Traps"
+source: arxiv
+author: Matija Franklin, Nenad Tomašev, Julian Jacobs, Joel Z. Leibo, Simon Osindero
+published: 2025
+ingested: 2026-05-02
+sha256: 603f0cae8cd8ab944f3e700a169d325120db42239075350d07c8183da71a527c
+tags:
+  - agent-security
+  - multi-agent
+  - adversarial-ml
+  - governance
+---

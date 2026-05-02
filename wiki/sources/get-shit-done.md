@@ -1,10 +1,13 @@
 ---
+title: "Get Shit Done (GSD)"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - spec_driven_development
   - context_engineering
   - workflow_system
-updated: 2026-04-26
 source: https://github.com/gsd-build/get-shit-done
 ---
 

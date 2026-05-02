@@ -1,6 +1,10 @@
 ---
-tags: [cli, agent-tools, hkuds, mcp, rendering-gap, harness-generation]
+title: "CLI-Anything (HKUDS)"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [cli, agent-tools, hkuds, mcp, rendering-gap, harness-generation]
 ---
 
 # CLI-Anything (HKUDS)

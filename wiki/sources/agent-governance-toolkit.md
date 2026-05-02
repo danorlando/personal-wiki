@@ -1,4 +1,8 @@
 ---
+title: "Agent Governance Toolkit (Microsoft)"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - agent-security
   - governance
@@ -8,7 +12,6 @@ tags:
   - policy-enforcement
   - microsoft
   - open-source
-updated: 2026-04-26
 source: https://github.com/microsoft/agent-governance-toolkit
 ---
 

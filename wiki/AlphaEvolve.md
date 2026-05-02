@@ -1,10 +1,13 @@
 ---
+title: "AlphaEvolve"
+created: 2026-04-26
+updated: 2026-04-26
+type: entity
 tags:
   - entity
   - google-deepmind
   - ai-tool
   - coding-agent
-updated: 2026-04-26
 ---
 
 # AlphaEvolve

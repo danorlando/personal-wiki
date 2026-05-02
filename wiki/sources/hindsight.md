@@ -1,6 +1,10 @@
 ---
-tags: [agent-memory, rag, knowledge-graph, benchmarks, vectorize, longmemeval]
+title: "Hindsight (Vectorize.io)"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [agent-memory, rag, knowledge-graph, benchmarks, vectorize, longmemeval]
 ---
 
 # Hindsight (Vectorize.io)

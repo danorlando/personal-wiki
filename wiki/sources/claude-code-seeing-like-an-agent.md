@@ -1,10 +1,13 @@
 ---
+title: "Lessons from Building Claude Code: Seeing like an Agent"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - source
   - claude-code
   - agent-design
   - anthropic
-updated: 2026-04-26
 ---
 
 # Lessons from Building Claude Code: Seeing like an Agent

@@ -158,3 +158,40 @@ Pages created: sources/system-prompts-leaks
 ## [2026-04-26] ingest | last30days-skill
 Pages created: sources/last30days-skill
 Concepts touched: Agent-Skills, Progressive-Disclosure
+
+## [2026-05-02] ingest | Two agents, one prompt
+Source: raw/Articles/Two agents, one prompt.md
+Pages created: sources/two-agents-one-prompt, Agent-Benchmarking
+Pages updated: Claude-Code, Agent-Skills
+
+## [2026-05-02] ingest | Skill-RAG: Failure-State-Aware Retrieval Augmentation
+Source: raw/research_papers/Skill-RAG.md
+Pages created: sources/skill-rag, Failure-Aware-Retrieval, Adaptive-RAG
+
+## [2026-05-02] ingest | Stateless Decision Memory for Enterprise AI Agents
+Source: raw/research_papers/Stateless Decision Memory for Enterprise AI Agents.md
+Pages created: sources/stateless-decision-memory, Deterministic-Projection-Memory, Event-Sourcing
+Pages updated: Agent-Memory, Agent-Governance
+
+## [2026-05-02] ingest | Position: Agentic AI systems should be making Bayes-consistent decisions
+Source: raw/research_papers/bayes_consistent_decisions.pdf
+Pages created: sources/bayes-consistent-decisions, Bayesian-Agent-Control, Decision-Theory-for-Agents
+Pages updated: Agent-Governance, Multi-Agent-Orchestration
+
+## [2026-05-02] ingest | AI Agent Traps (Google DeepMind)
+Source: raw/research_papers/AI_Agent_Traps.pdf
+Pages created: sources/ai-agent-traps, Agent-Traps, Agent-Security
+Pages updated: Agent-Governance, Multi-Agent-Orchestration
+
+## [2026-05-02] ingest | Autogenesis: A Self-Evolving Agent Protocol
+Source: raw/research_papers/autogenesis.pdf
+Pages created: sources/autogenesis, Self-Evolving-Agents, Agent-Protocol
+Pages updated: Self-Evolving-Skills, Agent-Skills, Multi-Agent-Orchestration
+
+## [2026-05-02] ingest | Diversity Collapse in Multi-Agent LLM Systems
+Source: raw/research_papers/diversity_collapse.pdf
+Pages created: sources/diversity-collapse-mas, Diversity-Collapse
+Pages updated: index.md
+
+## [2026-05-02] lint | Frontmatter backfill on 53 existing wiki pages
+Added title, created, type fields to all wiki pages. Recovered source: URLs for 19 source pages from git history.

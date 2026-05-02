@@ -1,11 +1,14 @@
 ---
+title: "obra/superpowers"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - claude_plugins
   - workflow_system
   - TDD
   - subagent_development
-updated: 2026-04-26
 source: https://github.com/obra/superpowers
 ---
 

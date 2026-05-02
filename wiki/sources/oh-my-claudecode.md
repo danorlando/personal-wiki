@@ -1,10 +1,13 @@
 ---
+title: "oh-my-claudecode (OMC)"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - multi_agent
   - orchestration
   - OSS
-updated: 2026-04-26
 source: https://github.com/Yeachan-Heo/oh-my-claudecode
 ---
 

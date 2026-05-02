@@ -1,6 +1,10 @@
 ---
-tags: [cli, google-workspace, rust, discovery-api, agent-tools, mcp]
+title: "googleworkspace/cli (`gws`)"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [cli, google-workspace, rust, discovery-api, agent-tools, mcp]
 ---
 
 # googleworkspace/cli (`gws`)

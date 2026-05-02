@@ -1,4 +1,8 @@
 ---
+title: "Personal AI Infrastructure (PAI)"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - agentic-ai
   - personal-ai
@@ -6,7 +10,6 @@ tags:
   - memory-systems
   - skill-systems
   - open-source
-updated: 2026-04-26
 source: https://github.com/danielmiessler/Personal_AI_Infrastructure
 ---
 

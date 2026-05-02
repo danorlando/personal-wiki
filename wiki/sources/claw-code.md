@@ -1,4 +1,8 @@
 ---
+title: "Claw Code"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - agent_systems
   - agent_harness
@@ -6,7 +10,6 @@ tags:
   - rust
   - coding_agent
   - claude_code_ecosystem
-updated: 2026-04-26
 source: https://github.com/ultraworkers/claw-code
 ---
 

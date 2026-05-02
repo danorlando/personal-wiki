@@ -1,11 +1,14 @@
 ---
+title: "system prompts leaks"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - repository
   - prompts
   - agent_dev
   - OSS
   - llm_internals
-updated: 2026-04-26
 source: https://github.com/asgeirtj/system_prompts_leaks
 ---
 

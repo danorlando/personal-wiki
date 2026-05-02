@@ -1,10 +1,13 @@
 ---
+title: "Self-Evolving Skills"
+created: 2026-04-26
+updated: 2026-05-02
+type: concept
 tags:
   - concept
   - agents
   - skills
   - self-improvement
-updated: 2026-04-26
 ---
 
 # Self-Evolving Skills
@@ -15,7 +18,7 @@ The idea that [[Agent Skills]] can improve themselves without human intervention
 
 Skills degrade silently. A skill written against one version of a tool breaks when the tool updates — and the agent keeps trying, keeps failing, and the failures don't propagate back into the skill definition. Separately, when an agent succeeds at something novel, that success disappears into conversation history rather than being encoded for reuse. Humans have to notice both problems and fix them manually.
 
-Self-evolving skills are an attempt to close this loop: the system that executes skills also updates them.
+Self-evolving skills are an attempt to close this loop: the system that executes skills also updates them. This is a pattern shared with [[Self-Evolving-Agents]] more broadly — Autogenesis generalizes it from skills to the full agent stack (prompts, tools, environments, memory) via an [[Agent-Protocol]].
 
 ## Three Evolution Modes
 
@@ -64,6 +67,9 @@ Self-evolving skills are one of three memory architectural patterns in [[Agent-M
 
 The skill format itself follows [[Agent Skills]] conventions. The evolution mechanism is what's novel — standard skills are static; evolved skills carry a lineage (predecessor links, evolution type, triggering event).
 
+Self-evolving skills are a **specialization** of the broader [[Self-Evolving-Agents]] concept: they evolve one resource type (skills) while [[sources/autogenesis|Autogenesis]] generalizes the pattern to prompts, tools, environments, and memory via an [[Agent-Protocol]]. The [[Agent-Protocol]] layer makes skill evolution composable with other resource evolution — a skill update can trigger a prompt update, and both are governed by the same commit gate.
+
 ## Inbound Sources
 
 - [[sources/openspace]]
+- [[sources/autogenesis]]

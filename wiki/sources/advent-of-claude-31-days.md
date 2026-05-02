@@ -1,10 +1,13 @@
 ---
+title: "Advent of Claude: 31 Days of Claude Code"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - source
   - claude-code
   - tools
   - developer-experience
-updated: 2026-04-26
 ---
 
 # Advent of Claude: 31 Days of Claude Code

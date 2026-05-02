@@ -1,10 +1,13 @@
 ---
+title: "claude-howto"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - learning_guide
   - agent_dev
   - OSS
-updated: 2026-04-26
 source: https://github.com/luongnv89/claude-howto
 ---
 

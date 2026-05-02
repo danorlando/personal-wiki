@@ -1,6 +1,10 @@
 ---
-tags: [knowledge-graph, claude-code, token-efficiency, tree-sitter, leiden, obsidian, karpathy]
+title: "Graphify"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [knowledge-graph, claude-code, token-efficiency, tree-sitter, leiden, obsidian, karpathy]
 ---
 
 # Graphify

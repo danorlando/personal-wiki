@@ -1,9 +1,12 @@
 ---
+title: "Complexity Theory"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - theoretical-cs
   - mathematics
-updated: 2026-04-26
 ---
 
 # Complexity Theory

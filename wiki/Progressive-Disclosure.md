@@ -1,9 +1,12 @@
 ---
+title: "Progressive Disclosure"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - claude-code
   - agent-design
-updated: 2026-04-26
 ---
 
 # Progressive Disclosure

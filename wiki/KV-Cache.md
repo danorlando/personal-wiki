@@ -1,9 +1,12 @@
 ---
+title: "KV Cache (Key-Value Cache)"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - llm-internals
   - efficiency
-updated: 2026-04-26
 ---
 
 # KV Cache (Key-Value Cache)

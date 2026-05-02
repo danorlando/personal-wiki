@@ -9,6 +9,8 @@ description: "I gave two coding agents the same one-line prompt and watched what
 tags:
   - "article"
   - "blog"
+ingested: 2026-05-02
+sha256: b6f8519ee53dc057740612f721582c7c8c98a13636465bf85dfe34fb8c35d54a
 ---
 Agents are getting more and more capable of training models. This means domain experts can have agents fine tune models for them without needing to write code themselves. But how do different agents approach the same task? Do they make the same choices? How good are the models they produce?
 

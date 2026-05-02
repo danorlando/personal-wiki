@@ -1,10 +1,13 @@
 ---
+title: "Agent-Native Software"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - agents
   - tooling
   - cli
-updated: 2026-04-26
 ---
 
 # Agent-Native Software

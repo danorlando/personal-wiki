@@ -1,10 +1,13 @@
 ---
+title: "Context Engineering"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - context-management
   - agentic-ai
   - claude-code
-updated: 2026-04-26
 ---
 
 # Context Engineering

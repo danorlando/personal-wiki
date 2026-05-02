@@ -1,10 +1,13 @@
 ---
+title: "Spec-Driven Development"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - development-workflow
   - agentic-ai
   - claude-code
-updated: 2026-04-26
 ---
 
 # Spec-Driven Development

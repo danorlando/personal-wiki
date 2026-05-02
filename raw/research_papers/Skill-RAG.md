@@ -7,6 +7,8 @@ created: 2026-05-01
 description:
 tags:
   - "research_paper"
+ingested: 2026-05-02
+sha256: d986d7cf282090693e8817b40aaaae51bbc5cc8da4d11a77b54fc2e073958621
 ---
 Kai Wei University of MichiganAnn ArborMichiganUSA [weikai@umich.edu](https://arxiv.org/html/2604.15771v1/mailto:weikai@umich.edu), Raymond Li University of British ColumbiaVancouverBritish ColumbiaCanada [raymondl@cs.ubc.ca](https://arxiv.org/html/2604.15771v1/mailto:raymondl@cs.ubc.ca), Xi Zhu Rutgers UniversityNew BrunswickNew JerseyUSA [xi.zhu@rutgers.edu](https://arxiv.org/html/2604.15771v1/mailto:xi.zhu@rutgers.edu), Zhaoqian Xue University of Pennsylvania Perelman School of MedicinePhiladelphiaPennsylvaniaUSA [zhaoqian.xue@pennmedicine.upenn.edu](https://arxiv.org/html/2604.15771v1/mailto:zhaoqian.xue@pennmedicine.upenn.edu), Jiaojiao Han New Jersey Institute of TechnologyNewarkNew JerseyUSA [liuliujiujiu05@gmail.com](https://arxiv.org/html/2604.15771v1/mailto:liuliujiujiu05@gmail.com), Jingcheng Niu Technical University of DarmstadtDarmstadtGermany [jingcheng.niu@tu-darmstadt.de](https://arxiv.org/html/2604.15771v1/mailto:jingcheng.niu@tu-darmstadt.de) and Fan Yang Wake Forest UniversityWinston-SalemNorth CarolinaUSA [yangfan@wfu.edu](https://arxiv.org/html/2604.15771v1/mailto:yangfan@wfu.edu)
 

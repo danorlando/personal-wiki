@@ -1,6 +1,10 @@
 ---
-tags: [agent-skills, self-evolving, mcp, benchmark, hkuds, skill-evolution]
+title: "OpenSpace (HKUDS)"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [agent-skills, self-evolving, mcp, benchmark, hkuds, skill-evolution]
 ---
 
 # OpenSpace (HKUDS)

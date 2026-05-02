@@ -1,9 +1,12 @@
 ---
+title: "Agent Skills"
+created: 2026-04-26
+updated: 2026-05-02
+type: concept
 tags:
   - concept
   - claude-code
   - extensibility
-updated: 2026-04-26
 ---
 
 # Agent Skills
@@ -64,6 +67,12 @@ oh-my-claudecode adds project-scope and user-scope skill storage (`.omc/skills/`
 
 Hermes Agent and OpenSpace both implement closed learning loops that generate new skills from execution traces — an agent completes a task, the system analyzes the trace, and a new or updated skill is created. This is a distinct architectural pattern from skills-as-static-packages. See [[Self-Evolving-Skills]] ([[sources/hermes-agent]], [[sources/openspace]]).
 
+Autogenesis takes this further: under its [[Agent-Protocol]] (AGP), skills are one of five RSPL resource types that can evolve. The SEPL operator algebra (Reflect → Select → Improve → Evaluate → Commit) treats skills as first-class, versioned resources with auditable lineage and rollback — a generalization from skill-only evolution to full-stack [[Self-Evolving-Agents]] ([[sources/autogenesis]]).
+
+## Skills and Agent Judgment
+
+The [[sources/two-agents-one-prompt|Two agents, one prompt]] comparison shows how skill quality affects agent output beyond task completion. Claude Code's ability to detect data leakage, handle class imbalance, and produce professional documentation may reflect deeper skill-level knowledge embedded in its training and tool surface. This connects to the broader question in [[Agent-Benchmarking]]: how do we measure whether an agent's skills produce *good* outcomes, not just *completed* outcomes?
+
 ## Inbound sources
 - [[sources/claude-code-how-we-use-skills]]
 - [[sources/advent-of-claude-31-days]]
@@ -76,3 +85,5 @@ Hermes Agent and OpenSpace both implement closed learning loops that generate ne
 - [[sources/oh-my-claudecode]]
 - [[sources/hermes-agent]]
 - [[sources/last30days-skill]]
+- [[sources/two-agents-one-prompt]]
+- [[sources/autogenesis]]

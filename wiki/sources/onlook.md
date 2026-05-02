@@ -1,4 +1,8 @@
 ---
+title: "Onlook — Visual-First AI Code Editor"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - ai-coding-tools
   - design-tools
@@ -6,7 +10,6 @@ tags:
   - nextjs
   - react
   - open-source
-updated: 2026-04-26
 source: https://github.com/onlook-dev/onlook
 ---
 

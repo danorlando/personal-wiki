@@ -1,11 +1,14 @@
 ---
+title: "Knowledge Graph for Agents"
+created: 2026-04-26
+updated: 2026-04-26
+type: concept
 tags:
   - concept
   - agents
   - knowledge-graph
   - context
   - retrieval
-updated: 2026-04-26
 ---
 
 # Knowledge Graph for Agents

@@ -1,10 +1,13 @@
 ---
+title: "gstack"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - virtual_team
   - workflow_system
   - OSS
-updated: 2026-04-26
 source: https://github.com/garrytan/gstack
 ---
 

@@ -1,4 +1,8 @@
 ---
+title: "OpenCode"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - agent_systems
   - coding_agent
@@ -6,7 +10,6 @@ tags:
   - oss
   - tui
   - provider_agnostic
-updated: 2026-04-26
 source: https://github.com/anomalyco/opencode
 ---
 

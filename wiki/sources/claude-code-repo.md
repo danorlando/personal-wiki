@@ -1,10 +1,13 @@
 ---
+title: "Claude Code (Official Repo)"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - agent_system
   - anthropic
   - OSS
-updated: 2026-04-26
 source: https://github.com/anthropics/claude-code
 ---
 

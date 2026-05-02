@@ -1,4 +1,8 @@
 ---
+title: "PraisonAI"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - agent_systems
   - multi_agent
@@ -8,7 +12,6 @@ tags:
   - rag
   - memory
   - scheduling
-updated: 2026-04-26
 source: https://github.com/MervinPraison/PraisonAI
 ---
 

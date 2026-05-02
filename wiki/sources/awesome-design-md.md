@@ -1,11 +1,14 @@
 ---
+title: "awesome design md"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - repository
   - developer_tool
   - prompts
   - design
   - agent_prompting
-updated: 2026-04-26
 source: https://github.com/VoltAgent/awesome-design-md
 ---
 

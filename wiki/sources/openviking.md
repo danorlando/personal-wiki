@@ -1,6 +1,10 @@
 ---
-tags: [agent-memory, context-management, filesystem-paradigm, rag, volcengine, bytedance, uri]
+title: "OpenViking (Volcengine / ByteDance)"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [agent-memory, context-management, filesystem-paradigm, rag, volcengine, bytedance, uri]
 ---
 
 # OpenViking (Volcengine / ByteDance)

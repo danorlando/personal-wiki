@@ -1,4 +1,8 @@
 ---
+title: "Hermes Agent"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - agent_systems
   - self_improving_agent
@@ -7,7 +11,6 @@ tags:
   - nous_research
   - messaging_gateway
   - rl_training
-updated: 2026-04-26
 source: https://github.com/NousResearch/hermes-agent
 ---
 

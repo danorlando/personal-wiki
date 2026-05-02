@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-26
+updated: 2026-05-02
 ---
 
 # Wiki Index
@@ -40,6 +40,13 @@ updated: 2026-04-26
 - [[sources/awesome-design-md]] — Curated DESIGN.md files from Vercel, Stripe, Claude, Linear; drop into any project so AI generates UI matching established design systems (2026-04-26)
 - [[sources/system-prompts-leaks]] — Community archive of verbatim system prompts from ChatGPT, Claude, Gemini, Grok, Perplexity; tool-level granularity for OpenAI (2026-04-26)
 - [[sources/last30days-skill]] — Claude Code skill for parallel research across 10 live sources; two-phase scoring and synthesis; progressive source unlocking (2026-04-26)
+- [[sources/stateless-decision-memory]] — DPM: append-only event log + single projection at decision time; matches summarization at generous budgets, strictly improves at tight budgets; 4 enterprise properties by construction (2026-04-26)
+- [[sources/two-agents-one-prompt]] — Claude Code vs Pi+Kimi K2.6 on same fine-tuning task; judgment > metrics: data leakage, model selection, documentation, discoverability (2026-04-26)
+- [[sources/skill-rag]] — Failure-aware RAG with hidden-state probing + 4-skill routing; typed query-evidence misalignment; strong OOD gains (2026-04-26)
+- [[sources/autogenesis]] — Two-layer self-evolution protocol (RSPL+SEPL) decoupling what evolves from how; Agent Bus architecture; GAIA Test 89.04% SOTA (2026-04-26)
+- [[sources/bayes-consistent-decisions]] — Bayesian principles at the agentic control layer (not inside LLMs); calibrated beliefs, utility-aware policies, VoI stopping/routing/budget allocation (2026-04-26)
+- [[sources/ai-agent-traps]] — DeepMind's 6-class framework for adversarial environment-level attacks on AI agents; traps alter the environment not the model (2026-04-26)
+- [[sources/diversity-collapse-mas]] — Multi-agent diversity collapse via structural coupling; compute efficiency paradox, authority suppression, topology-driven premature convergence (2026-04-26)
 
 ## Entities
 
@@ -50,8 +57,10 @@ updated: 2026-04-26
 
 ## Concepts
 
+- [[Agent-Benchmarking]] — Evaluating agents beyond task-completion metrics; judgment, documentation quality, and professional thoroughness as differentiators
+
 - [[Agent-Governance]] — Runtime policy enforcement, zero-trust identity, and privilege rings for autonomous agents; OWASP Agentic Top 10
-- [[Agent-Memory]] — Three architectures for agent memory: biomimetic (Hindsight), filesystem (OpenViking), self-evolving skills (OpenSpace)
+- [[Agent-Memory]] — Three architectures for agent memory: biomimetic (Hindsight), filesystem (OpenViking), self-evolving skills (OpenSpace), deterministic projection (DPM)
 - [[Agent-Native-Software]] — Making software consumable by AI agents via generated CLIs and discovery-driven command surfaces
 - [[Agent-Skills]] — Packaged expertise folders for AI agents; Claude Code's primary extensibility mechanism
 - [[Complexity-Theory]] — Hardness of approximation, gadget reductions, inapproximability bounds
@@ -65,6 +74,17 @@ updated: 2026-04-26
 - [[Self-Evolving-Skills]] — Skills that mutate in response to execution outcomes (FIX/DERIVED/CAPTURED); agents learn from failure
 - [[Skills-Ecosystem]] — Open standard skill libraries, marketplaces, security auditing, and cross-tool distribution
 - [[Spec-Driven-Development]] — Writing full specs before code generation; brainstorming gates, PRD stages, two-stage review
+- [[Deterministic-Projection-Memory]] — Append-only event log + single task-conditioned projection; enterprise memory architecture satisfying replay/audit/isolation/statelessness by construction
+- [[Event-Sourcing]] — Immutable append-only event log as authoritative state; pure projections for derived views; pattern underlying DPM
+- [[Adaptive-RAG]] — Dynamic when/how/how-often retrieval control; spectrum from timing-based to failure-type routing
+- [[Failure-Aware-Retrieval]] — Diagnosing typed query–evidence misalignment after retrieval failure rather than retrying; hidden-state probing + skill routing
+- [[Self-Evolving-Agents]] — Agents that modify their own components (prompts, tools, memory, architecture) via closed-loop evolution protocols; generalization of self-evolving skills
+- [[Agent-Protocol]] — Standardized interfaces governing agent interactions (MCP: tool invocation, A2A: agent communication, AGP: resource lifecycle + self-evolution)
+- [[Bayesian-Agent-Control]] — Bayesian reasoning at the agentic control layer (not inside LLMs); belief states over task-relevant latent variables; utility-aware stopping/routing/budget allocation
+- [[Decision-Theory-for-Agents]] — Normative decision theory (Bayesian decision theory, expected utility, value of information) as the framework for agent action selection under uncertainty
+- [[Agent-Traps]] — Adversarial environment-level attacks on AI agents across 6 classes (perception, reasoning, memory, action, systemic, human-in-the-loop); traps weaponise agent capabilities
+- [[Agent-Security]] — Protecting agents from adversarial manipulation, unauthorised access, and exploitation; layered defence from model safety through governance to ecosystem interventions
+- [[Diversity-Collapse]] — Premature convergence in multi-agent systems driven by interaction structure; compute efficiency paradox, authority suppression, topology-driven convergence
 
 ## Analyses
 

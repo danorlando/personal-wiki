@@ -1,10 +1,13 @@
 ---
+title: "AI as a Research Partner: Advancing Theoretical Computer Science with AlphaEvolve"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - source
   - ai
   - theoretical-cs
   - google-deepmind
-updated: 2026-04-26
 ---
 
 # AI as a Research Partner: Advancing Theoretical Computer Science with AlphaEvolve

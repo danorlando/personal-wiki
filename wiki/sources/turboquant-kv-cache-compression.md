@@ -1,11 +1,14 @@
 ---
+title: "TurboQuant: Google Algorithm Cuts AI Memory Use and Boosts Speed"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - source
   - ai
   - llm-efficiency
   - google
   - quantization
-updated: 2026-04-26
 ---
 
 # TurboQuant: Google Algorithm Cuts AI Memory Use and Boosts Speed

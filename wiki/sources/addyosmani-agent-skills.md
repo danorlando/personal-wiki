@@ -1,6 +1,10 @@
 ---
-tags: [agent-skills, claude-code, software-engineering, verification, google-engineering, addy-osmani]
+title: "addyosmani/agent-skills"
+created: 2026-04-26
 updated: 2026-04-26
+type: summary
+tags:
+  - [agent-skills, claude-code, software-engineering, verification, google-engineering, addy-osmani]
 ---
 
 # addyosmani/agent-skills

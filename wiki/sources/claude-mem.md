@@ -1,10 +1,13 @@
 ---
+title: "claude-mem"
+created: 2026-04-26
+updated: 2026-04-26
+type: summary
 tags:
   - claude_code
   - memory
   - persistence
   - agent_infrastructure
-updated: 2026-04-26
 source: https://github.com/thedotmack/claude-mem
 ---
 
