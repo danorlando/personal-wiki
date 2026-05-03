@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning/Harness design for long-running application development 1.md",
+                "file": "Articles/Context Engineering Guide Techniques for AI Agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness design for long-running application development 1"
+              "title": "Context Engineering Guide Techniques for AI Agents"
             }
           },
           {
@@ -291,8 +291,24 @@
   },
   "active": "c450afe554405c4c",
   "lastOpenFiles": [
-    "learning/Code execution with MCP building more efficient AI agents.md",
+    "Articles/Context Engineering for Enterprise AI Beyond Toy SRE Agents.md",
+    "Articles/Context Engineering Guide Techniques for AI Agents.md",
+    "research_papers/A Context Engineering Framework for Improving Enterprise AI Agents based on Digital-Twin MDP 1.md",
+    "Articles/Context Engineering for LLMs  Building Reliable AI Agents.md",
+    "Articles/AI agent observability what enterprises need to know.md",
+    "Articles/Humans and Agents in Software Engineering Loops.md",
+    "research_papers/Safe and Policy-Compliant Multi-Agent Orchestration for Enterprise AI 1.md",
+    "Articles/Beyond the hype A real-world guide to building enterprise-grade AI agents.md",
+    "Articles/How to Design AI Agents 7 Guiding Principles 1.md",
+    "learning/Enterprise AI Agent Playbook What Anthropic and OpenAI Reveal About Building Production-Ready Systems.md",
+    "Articles/True multi-agent collaboration doesn’t work.md",
+    "Articles/Building frontend UIs with Codex and Figma.md",
+    "research_papers/multi_agent_planning.pdf",
+    "Articles/Using skills to accelerate OSS maintenance.md",
+    "Articles/From prompts to products One year of Responses.md",
+    "Articles/How Perplexity Brought Voice Search to Millions Using the Realtime API.md",
     "learning/Harness design for long-running application development 1.md",
+    "learning/Code execution with MCP building more efficient AI agents.md",
     "Releases/Introducing advanced tool use on the Claude Developer Platform.md",
     "learning/Equipping agents for the real world with Agent Skills.md",
     "learning/Effective context engineering for AI agents.md",
@@ -302,30 +318,14 @@
     "learning/Building Effective AI Agents.md",
     "learning/Contextual Retrieval in AI Systems.md",
     "Articles/Effective harnesses for long-running agents.md",
-    "learning/Demystifying evals for AI agents.md",
-    "Articles/Designing AI resistant technical evaluations.md",
-    "learning/Harness design for long-running application development.md",
-    "Releases/Bloom an open source tool for automated behavioral evaluations.md",
     "learning",
-    "Articles/Introducing Bloom an open source tool for automated behavioral evaluations.md",
-    "Articles/Writing effective tools for AI agents—using AI agents.md",
-    "research_papers/How AI Impacts Skill Formation.md",
     "research_papers/diversity_collapse.pdf",
-    "Articles/How AI assistance impacts the formation of coding skills.md",
-    "research_papers/Constitutional Classifiers++ Efficient Production-Grade Defenses against Universal Jailbreaks.md",
     "research_papers/constitutional_classifiers.pdf",
-    "Articles/Labor market impacts of AI A new measure and early evidence.md",
-    "Articles/The Persona Selection Model Why AI Assistants might Behave like Humans.md",
-    "Articles/Trustworthy agents in practice.md",
-    "Articles/Automated Alignment Researchers Using large language models to scale scalable oversight.md",
-    "Articles/Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench.md",
-    "Articles/Emotion concepts and their function in a large language model.md",
     "research_papers/diversity_collapse.meta",
     "research_papers/bayes_consistent_decisions.meta",
     "research_papers/autogenesis.meta",
     "research_papers/AI_Agent_Traps.meta",
     "research_papers/swe-debate.pdf",
-    "research_papers/agent_diff.pdf",
-    "research_papers/bayes_consistent_decisions.pdf"
+    "research_papers/agent_diff.pdf"
   ]
 }
