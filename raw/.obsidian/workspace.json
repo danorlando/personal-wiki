@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Two agents, one prompt.md",
+                "file": "Articles/Top AI Agentic Workflow Patterns Enterprises Should Use in 2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Two agents, one prompt"
+              "title": "Top AI Agentic Workflow Patterns Enterprises Should Use in 2026"
             }
           },
           {
@@ -291,10 +291,22 @@
   },
   "active": "c450afe554405c4c",
   "lastOpenFiles": [
+    "Articles/How to build an Enterprise AI Agent.md",
+    "Articles/Top AI Agentic Workflow Patterns Enterprises Should Use in 2026.md",
+    "research_papers/A Context Engineering Framework for Improving Enterprise AI Agents based on Digital-Twin MDP.md",
+    "research_papers/Safe and Policy-Compliant Multi-Agent Orchestration for Enterprise AI.md",
+    "Articles/How to Design AI Agents 7 Guiding Principles.md",
+    "Articles/Enterprise AI Agents Agentic Design Patterns Explained.md",
+    "research_papers/Test-Driven AI Agent Definition (TDAD).md",
+    "research_papers/swe-debate.pdf",
+    "research_papers/Rethinking Agent Design.md",
+    "research_papers/Agent Design Pattern Catalogue.md",
+    "research_papers/Unified Software Engineering Agent as AI Software Engineer.md",
+    "research_papers/agent_diff.pdf",
+    "Articles/Two agents, one prompt.md",
     "research_papers/Untitled.md",
     "research_papers/bayes_consistent_decisions.pdf",
     "Repos/autoresearch.md",
-    "Articles/Two agents, one prompt.md",
     "research_papers/diversity_collapse.pdf",
     "research_papers/Skill-RAG.md",
     "research_papers/Stateless Decision Memory for Enterprise AI Agents.md",
@@ -313,18 +325,7 @@
     "Personal/Experience Profile.md",
     "Articles/Lessons from Building Claude Code Seeing like an Agent.md",
     "Personal/Aledade Interview strategy.md",
-    "Personal/AI Topic Cards Agent API talking points.md",
-    "Personal/Answer Engine API talking points.md",
-    "Untitled.md",
-    "Repos/agent_enhancement/OpenSpace.md",
-    "Repos/agent_enhancement/googleworkspace-cli.md",
-    "Repos/agent_enhancement/CLI-Anything.md",
     "Personal",
-    "Articles/Lessons from Building Claude Code How We Use Skills.md",
-    "Articles/Advent of Claude 31 Days of Claude Code.md",
-    "Repos/agent_enhancement/graphify coding assistant knowledge graph skill.md",
-    "Readme/agent_systems",
-    "Readme",
-    "Repos/research_tools"
+    "Readme/agent_systems"
   ]
 }
