@@ -2,11 +2,11 @@
 title: "Safe and Policy-Compliant Multi-Agent Orchestration for Enterprise AI"
 source: "https://arxiv.org/html/2604.17240v1"
 author:
-published:
+published: 2026-04-19
 created: 2026-05-02
 description:
 tags:
-  - "clippings"
+  - "research"
 ---
 1 <sup>st</sup> Vinil Pasupuleti    2 <sup>nd</sup> Shyalendar Reddy Allala  
 3 <sup>rd</sup> Siva Rama Krishna Varma Bayyavarapu    4 <sup>th</sup> Shrey Tyagi

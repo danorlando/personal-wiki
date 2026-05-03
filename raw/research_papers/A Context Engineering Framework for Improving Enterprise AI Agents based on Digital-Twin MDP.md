@@ -2,11 +2,11 @@
 title: "A Context Engineering Framework for Improving Enterprise AI Agents based on Digital-Twin MDP"
 source: "https://arxiv.org/html/2603.22083v1"
 author:
-published:
+published: 2026-03-23
 created: 2026-05-02
 description:
 tags:
-  - "clippings"
+  - "research"
 ---
 Xi Yang, Aurélie Lozano, Naoki Abe, Bhavya, Saurabh Jha and Noah Zheutlin, Rohan R. Arora, Yu Deng, Daby M. Sow IBM Software Innovation Lab1101 Kitchawan RoadYorktown HeightsNew York10598USA [xi.yang, bhavya, saurab.jha, noah.zheutlin, rohan.arora@ibm.com](https://arxiv.org/html/2603.22083v1/mailto:xi.yang,%20bhavya,%20saurab.jha,%20noah.zheutlin,%20rohan.arora@ibm.com) [aclozano, nabe, dengy, sowdaby@us.ibm.com](https://arxiv.org/html/2603.22083v1/mailto:aclozano,%20nabe,%20dengy,%20sowdaby@us.ibm.com)
 
